@@ -1,0 +1,190 @@
+.main-container {
+  margin-top: 200px;
+  display: flex;
+  width: 100%;
+}
+
+.left-side {
+  flex: 0 0 35%;
+}
+
+.right-side {
+  flex: 0 0 65%%;
+  width: 960px;
+  height: 825px;
+}
+.text-left {
+  margin-left: 5rem;
+  width: 521px;
+  height: 285px;
+}
+.h3-left {
+  color: var(--subtitle-new, #376a66);
+  /* PC/sub tit con */
+  font-family: Averta Std CY;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+}
+.span-left {
+  color: var(--xanh, #4ca757);
+  font-family: Averta Std CY;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -2.3px;
+}
+.h2-left {
+  color: #3a5469;
+  font-family: Averta Std CY;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -2.3px;
+  margin-top: 0.2rem;
+}
+.circle-bottom {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.img-main1 {
+  width: 179.23px;
+  height: 217.316px;
+  object-fit: cover;
+}
+.img-main2 {
+  width: 518.646px;
+  height: 371.902px;
+  position: absolute;
+  margin-left: 11px;
+}
+.img-main3 {
+  width: 264.364px;
+  height: 295.729px;
+  position: absolute;
+  top: 103rem;
+  right: 33rem;
+  bottom: 2rem;
+  object-fit: cover;
+  display: inline-block;
+}
+.rectangle {
+  width: 190.432px;
+  height: 143.384px;
+  border-radius: 0px 0px 0px 20.09px;
+  opacity: 0.10000000149011612;
+  background: var(--xm, #3a5469);
+  margin-top: -74px;
+}
+.rectangle2 {
+  width: 152.345px;
+  height: 147.865px;
+  border-radius: 0px 20.09px 0px 0px;
+  background: var(
+    --xanh-linear,
+    linear-gradient(180deg, #4ca757 0%, #16a571 100%)
+  );
+  margin-left: 44.3rem;
+}
+.img-main4 {
+  width: 241.96px;
+  height: 413.349px;
+  margin-left: 45rem;
+  margin-top: -12rem;
+  object-fit: cover;
+}
+.rectangle5 {
+  width: 113.462px;
+  height: 112.524px;
+  border-radius: 0px 0px 20.09px 0px;
+  opacity: 0.10000000149011612;
+  background: var(--xm, #3a5469);
+  position: absolute;
+  right: 25.4rem;
+  margin-top: 2.8rem;
+}
+.rectangle .aos-init .aos-animate {
+  background: var(--xm, #3a5469);
+}
+.text-bottom {
+  width: 1664px;
+  height: 150px;
+  top: 1760px;
+  left: 68px;
+  border: 1px;
+}
+.h1-bottom {
+  font-size: 100px;
+  margin-left: 4rem;
+  font-size: 130px;
+}
+.span-bottom {
+  color: #38a661;
+}
+.text-botoom {
+  line-height: 1.5;
+  position: relative;
+  font-size: 130px;
+}
+
+.h1-bottom {
+  color: #4ca757; /* Màu chữ (màu xanh lá cây) */
+  /* Tạo viền xung quanh chữ dựa vào thuộc tính text-stroke */
+  -webkit-text-stroke: 1px #4ca757; /* Độ rộng viền và màu viền */
+  text-stroke: 1px #4ca757; /* Độ rộng viền và màu viền */
+  /* Fallback gradient màu trong suốt và màu xanh lá cây */
+  background: linear-gradient(to right, transparent 50%, #4ca757 50%);
+  background-clip: text;
+  -webkit-background-clip: text; /* Cho trình duyệt Safari */
+  color: transparent;
+}
+
+.h1-bottom::before {
+  content: attr(
+    data-text
+  ); /* Sử dụng attribute data-text để hiển thị chữ với viền */
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #4ca757; /* Màu viền chữ (màu xanh lá cây) */
+  /* Tạo viền xung quanh chữ dựa vào thuộc tính text-stroke */
+  -webkit-text-stroke: 1px #4ca757; /* Độ rộng viền và màu viền */
+  text-stroke: 1px #4ca757; /* Độ rộng viền và màu viền */
+  /* Đảm bảo viền nằm phía dưới chữ */
+  z-index: -1;
+}
+
+.span-bottom {
+  font-size: 100px;
+  line-height: 1.5;
+}
+.h3-bottom {
+  position: absolute;
+  right: -22rem;
+  top: -8rem;
+  font-size: 100px;
+}
+.text-botoom {
+  line-height: 1.5;
+
+  overflow: hidden; /* Ẩn phần chữ vượt ra ngoài khung */
+  white-space: nowrap; /* Ngăn chữ xuống dòng */
+}
+
+.h1-bottom {
+  animation: runningText 10s linear infinite; /* Áp dụng animation */
+}
+
+@keyframes runningText {
+  0% {
+    transform: translateX(100%); /* Di chuyển chữ sang phải */
+  }
+  100% {
+    transform: translateX(-100%); /* Di chuyển chữ sang trái */
+  }
+}

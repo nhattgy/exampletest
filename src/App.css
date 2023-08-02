@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-LightItalic.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-LightItalic.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Extrabold.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Extrabold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Light.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Black.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Bold.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Regular.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta Std CY";
+  src: url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Semibold.woff2")
+      format("woff2"),
+    url("C:\Users\nhatt\OneDrive\Máy tính\Example React\example\src\fonts\AvertaStdCY-Semibold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Averta Std CY;
+  with: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

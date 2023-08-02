@@ -1,0 +1,278 @@
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.imgbanner {
+  width: 100%;
+  height: 88%;
+  object-fit: cover;
+}
+
+.logoheader {
+  width: 122px;
+  height: 74px;
+  padding: 12px 71px;
+}
+
+.logo {
+  position: absolute;
+}
+
+.phone-number {
+  position: absolute;
+  top: 25px;
+  right: 72px;
+  width: 152px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.phone-text {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.separator {
+  position: absolute;
+  bottom: 40px;
+  margin-left: 77px;
+  width: 187px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.separator2 {
+  position: absolute;
+
+  width: 187px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 3rem;
+  left: 170px;
+}
+.h1-introduce {
+  margin-top: -15rem;
+  color: #fff;
+  font-family: Averta Std CY;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.introduce-text {
+  position: absolute;
+  color: white;
+  transform: translateX(-40%);
+  z-index: 1;
+}
+.text-menu {
+  width: 144px;
+  color: #fff;
+  font-family: Averta Std CY;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 33.6px */
+}
+.navbar {
+  align-items: center;
+  position: absolute;
+  top: 124px;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 30px 75px;
+  position: relative;
+  color: #fff;
+  font-family: Averta Std CY;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.text-header {
+  position: absolute;
+  top: 30%;
+  margin-left: 90px;
+}
+.h1-header {
+  font-size: 127px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 85px; /* 66.929% */
+  letter-spacing: -2.54px;
+  position: relative; /* Đảm bảo phần tử cha có vị trí tương đối để xử lý viền */
+
+  /* Tạo hiệu ứng viền bằng pseudo-element ::before */
+}
+.h1-header2 {
+  font-size: 127px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 85px; /* 66.929% */
+  letter-spacing: -2.54px;
+  color: #4ca757;
+  margin-top: -33px;
+  display: inline-block;
+}
+.h1-header3 {
+  display: inline-block;
+  font-size: 127px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 85px; /* 66.929% */
+  letter-spacing: -2.54px;
+  margin-top: -33px;
+  margin-left: 1.4rem;
+}
+.about-us-info {
+  display: none;
+  width: 1600px;
+  height: 674px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.03);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.introduce-text {
+  color: #f9f0ec;
+  font-family: Averta Std CY;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  position: absolute;
+  right: 2rem;
+  top: 38rem;
+  width: 441px;
+  right: 15rem;
+  display: inline-block;
+}
+.ok {
+  display: inline-block;
+  margin-left: 3px;
+}
+.circle-bottom2 {
+  position: absolute;
+  width: 159px;
+  height: 159px;
+  flex-shrink: 0;
+  bottom: 1rem;
+  margin-left: 324px;
+}
+.circle-bottom3 {
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 2rem;
+  border-radius: 266.67px;
+  left: 55rem;
+}
+.circle-bottom4 {
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 2rem;
+  border-radius: 266.67px;
+  left: 89rem;
+}
+.text-number {
+  color: var(--mu-trng, #fff);
+  font-family: Averta Std CY;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px; /* 140.625% */
+  letter-spacing: -3.95px;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--mu-trng, #fff);
+  font-family: Averta Std CY;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  text-transform: uppercase;
+}
+
+.blue-table {
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed */
+  left: 50%; /* Adjust the left position as needed */
+  transform: translateX(-50%); /* Center the table horizontally */
+  background: #4ca757;
+  color: white;
+  padding: 20px;
+  width: 97.9%;
+  height: 62%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+.header-hover {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+}
+/* Optional: Add hover effect */
+.blue-table:hover {
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  height: 62%;
+}
+
+/* Optional: Add transition effect */
+.header-hover.about-us-hovered {
+  background-color: #16a571;
+}
+/* Add these styles to your Header.css file or create a new CSS file */
+
+.introduce-image {
+  width: 342px;
+  height: 391px;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  transform: translateX(-50%);
+  z-index: 1; /* Ensure the image appears on top of blue-table */
+  object-fit: cover;
+}
+
+.blue-table:hover .introduce-image {
+  display: block; /* Show the image when blue-table is hovered */
+}
+
+/* Add these styles to your Header.css file or create a separate CSS file for the progress bar */
+
+.progressBar {
+  width: 279px;
+  height: 4px;
+  background: var(--xanhhh, #4ca757);
+  position: relative;
+  margin-top: 10px;
+}
